@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beego/orm-benchmark/benchs"
+	"github.com/MengFanqi/orm-benchmark/benchs"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -41,9 +41,14 @@ func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	var orms ListOpts
+	benchs.ORM_HOST = append(benchs.ORM_HOST, "10.179.81.20:3306")
+	benchs.ORM_USER = "root"
+	benchs.ORM_PASSWD = "123456"
+	benchs.ORM_DB = "invite"
+	benchs.ORM_CHARSET = "utf8"
 	flag.IntVar(&benchs.ORM_MAX_IDLE, "max_idle", 200, "max idle conns")
 	flag.IntVar(&benchs.ORM_MAX_CONN, "max_conn", 200, "max open conns")
-	flag.StringVar(&benchs.ORM_SOURCE, "source", "root:@/orm_bench?charset=utf8", "mysql dsn source")
+	flag.StringVar(&benchs.ORM_SOURCE, "source", "root:123456@tcp(10.179.81.20:3306)/invite?parseTime=True&loc=Local&timeout=200ms", "mysql dsn source")
 	flag.IntVar(&benchs.ORM_MULTI, "multi", 1, "base query nums x multi")
 	flag.Var(&orms, "orm", "orm name: all, "+strings.Join(benchs.BrandNames, ", "))
 	flag.Parse()

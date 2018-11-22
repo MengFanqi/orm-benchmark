@@ -13,9 +13,9 @@ func init() {
 	st := NewSuite("hood")
 	st.InitF = func() {
 		st.AddBenchmark("Insert", 2000*ORM_MULTI, HoodInsert)
-		st.AddBenchmark("MultiInsert 100 row", 500*ORM_MULTI, HoodInsertMulti)
+		//st.AddBenchmark("MultiInsert 100 row", 500*ORM_MULTI, HoodInsertMulti)
 		st.AddBenchmark("Update", 2000*ORM_MULTI, HoodUpdate)
-		st.AddBenchmark("Read", 4000*ORM_MULTI, HoodRead)
+		st.AddBenchmark("Read", 2000*ORM_MULTI, HoodRead)
 		st.AddBenchmark("MultiRead limit 100", 2000*ORM_MULTI, HoodReadSlice)
 
 		db, _ := sql.Open("mysql", ORM_SOURCE)
@@ -29,8 +29,7 @@ func HoodInsert(b *B) {
 		initDB()
 		m = NewModel()
 	})
-
-	for i := 0; i < b.N; i++ {
+	for i := 1; i <= b.N; i++ {
 		m.Id = 0
 		if _, err := ho.Save(m); err != nil {
 			fmt.Println(err)
@@ -45,13 +44,10 @@ func HoodInsertMulti(b *B) {
 
 func HoodUpdate(b *B) {
 	var m *Model
-	wrapExecute(b, func() {
-		initDB()
-		m = NewModel()
-		ho.Save(m)
-	})
-
-	for i := 0; i < b.N; i++ {
+	m = NewModel()
+	for i := 1; i <= b.N; i++ {
+		//m.Id = i
+		//m.Age = i
 		if _, err := ho.Save(m); err != nil {
 			fmt.Println(err)
 			b.FailNow()
@@ -61,13 +57,8 @@ func HoodUpdate(b *B) {
 
 func HoodRead(b *B) {
 	var m *Model
-	wrapExecute(b, func() {
-		initDB()
-		m = NewModel()
-		ho.Save(m)
-	})
-
-	for i := 0; i < b.N; i++ {
+	m = NewModel()
+	for i := 1; i <= b.N; i++ {
 		var mds []Model
 		if err := ho.Where("id", "=", m.Id).Find(&mds); err != nil {
 			fmt.Println(err)
@@ -77,22 +68,9 @@ func HoodRead(b *B) {
 }
 
 func HoodReadSlice(b *B) {
-	var m *Model
-	wrapExecute(b, func() {
-		initDB()
-		m = NewModel()
-		for i := 0; i < 100; i++ {
-			m.Id = 0
-			if _, err := ho.Save(m); err != nil {
-				fmt.Println(err)
-				b.FailNow()
-			}
-		}
-	})
-
-	for i := 0; i < b.N; i++ {
+	for i := 1; i < b.N; i++ {
 		var models []Model
-		if err := ho.Where("id", ">", 0).Limit(100).Find(&models); err != nil {
+		if err := ho.Where("id", ">", 1).Limit(100).Find(&models); err != nil {
 			fmt.Println(err)
 			b.FailNow()
 		}

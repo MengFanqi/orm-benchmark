@@ -9,20 +9,20 @@ import (
 var qo *qbs.Qbs
 
 func init() {
-	st := NewSuite("qbs")
-	st.InitF = func() {
-		st.AddBenchmark("Insert", 2000*ORM_MULTI, QbsInsert)
-		st.AddBenchmark("MultiInsert 100 row", 500*ORM_MULTI, QbsInsertMulti)
-		st.AddBenchmark("Update", 2000*ORM_MULTI, QbsUpdate)
-		st.AddBenchmark("Read", 4000*ORM_MULTI, QbsRead)
-		st.AddBenchmark("MultiRead limit 100", 2000*ORM_MULTI, QbsReadSlice)
-
-		qbs.Register("mysql", ORM_SOURCE, "model", qbs.NewMysql())
-		qbs.ChangePoolSize(ORM_MAX_IDLE)
-		qbs.SetConnectionLimit(ORM_MAX_CONN, true)
-
-		qo, _ = qbs.GetQbs()
-	}
+	//st := NewSuite("qbs")
+	//	//st.InitF = func() {
+	//	//	st.AddBenchmark("Insert", 2000*ORM_MULTI, QbsInsert)
+	//	//	//st.AddBenchmark("MultiInsert 100 row", 500*ORM_MULTI, QbsInsertMulti)
+	//	//	st.AddBenchmark("Update", 2000*ORM_MULTI, QbsUpdate)
+	//	//	st.AddBenchmark("Read", 4000*ORM_MULTI, QbsRead)
+	//	//	st.AddBenchmark("MultiRead limit 100", 2000*ORM_MULTI, QbsReadSlice)
+	//	//
+	//	//	qbs.Register("mysql", ORM_SOURCE, "model", qbs.NewMysql())
+	//	//	qbs.ChangePoolSize(ORM_MAX_IDLE)
+	//	//	qbs.SetConnectionLimit(ORM_MAX_CONN, true)
+	//	//
+	//	//	qo, _ = qbs.GetQbs()
+	//	//}
 }
 
 func QbsInsert(b *B) {
@@ -32,7 +32,7 @@ func QbsInsert(b *B) {
 		m = NewModel()
 	})
 
-	for i := 0; i < b.N; i++ {
+	for i := 1; i <= b.N; i++ {
 		m.Id = 0
 		if _, err := qo.Save(m); err != nil {
 			fmt.Println(err)
@@ -64,13 +64,15 @@ func QbsInsertMulti(b *B) {
 
 func QbsUpdate(b *B) {
 	var m *Model
-	wrapExecute(b, func() {
-		initDB()
-		m = NewModel()
-		qo.Save(m)
-	})
+	//wrapExecute(b, func() {
+	//	//	initDB()
+	//	//	m = NewModel()
+	//	//	qo.Save(m)
+	//	//})
 
-	for i := 0; i < b.N; i++ {
+	for i := 1; i <= b.N; i++ {
+		m.Id = i
+		m.Age = i
 		if _, err := qo.Save(m); err != nil {
 			fmt.Println(err)
 			b.FailNow()
@@ -80,13 +82,13 @@ func QbsUpdate(b *B) {
 
 func QbsRead(b *B) {
 	var m *Model
-	wrapExecute(b, func() {
-		initDB()
-		m = NewModel()
-		qo.Save(m)
-	})
+	//wrapExecute(b, func() {
+	//	initDB()
+	//	m = NewModel()
+	//	qo.Save(m)
+	//})
 
-	for i := 0; i < b.N; i++ {
+	for i := 1; i <= b.N; i++ {
 		if err := qo.Find(m); err != nil {
 			fmt.Println(err)
 			b.FailNow()
@@ -95,22 +97,22 @@ func QbsRead(b *B) {
 }
 
 func QbsReadSlice(b *B) {
-	var m *Model
-	wrapExecute(b, func() {
-		initDB()
-		m = NewModel()
-		for i := 0; i < 100; i++ {
-			m.Id = 0
-			if _, err := qo.Save(m); err != nil {
-				fmt.Println(err)
-				b.FailNow()
-			}
-		}
-	})
+	//var m *Model
+	//wrapExecute(b, func() {
+	//	initDB()
+	//	m = NewModel()
+	//	for i := 0; i < 100; i++ {
+	//		//m.Id = 0
+	//		if _, err := qo.Save(m); err != nil {
+	//			fmt.Println(err)
+	//			b.FailNow()
+	//		}
+	//	}
+	//})
 
-	for i := 0; i < b.N; i++ {
+	for i := 1; i <= b.N; i++ {
 		var models []*Model
-		if err := qo.Where("id > ?", 0).Limit(100).FindAll(&models); err != nil {
+		if err := qo.Where("id > ?", 1).Limit(100).FindAll(&models); err != nil {
 			fmt.Println(err)
 			b.FailNow()
 		}

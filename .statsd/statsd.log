@@ -1,0 +1,267 @@
+2018-11-20 20:37:27 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:37:27 [INFO] metric open udp on :0
+2018-11-20 20:37:27 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:37:56 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:37:56 [INFO] metric open udp on :0
+2018-11-20 20:37:56 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:39:48 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:39:48 [INFO] metric open udp on :0
+2018-11-20 20:39:48 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:40:06 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:40:06 [INFO] metric open udp on :0
+2018-11-20 20:40:06 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:40:43 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:40:43 [INFO] metric open udp on :0
+2018-11-20 20:40:43 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:41:50 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:41:50 [INFO] metric open udp on :0
+2018-11-20 20:41:50 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:42:32 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:42:32 [INFO] metric open udp on :0
+2018-11-20 20:42:32 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:42:45 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:42:45 [INFO] metric open udp on :0
+2018-11-20 20:42:45 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:43:47 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:43:47 [INFO] metric open udp on :0
+2018-11-20 20:43:47 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:44:25 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:44:25 [INFO] metric open udp on :0
+2018-11-20 20:44:25 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:45:52 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:45:52 [INFO] metric open udp on :0
+2018-11-20 20:45:52 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:46:31 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:46:31 [INFO] metric open udp on :0
+2018-11-20 20:46:31 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:47:36 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:47:36 [INFO] metric open udp on :0
+2018-11-20 20:47:36 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:48:27 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:48:27 [INFO] metric open udp on :0
+2018-11-20 20:48:27 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:48:43 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:48:43 [INFO] metric open udp on :0
+2018-11-20 20:48:43 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:48:54 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:48:54 [INFO] metric open udp on :0
+2018-11-20 20:48:54 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:49:36 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:49:36 [INFO] metric open udp on :0
+2018-11-20 20:49:36 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:50:54 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:50:54 [INFO] metric open udp on :0
+2018-11-20 20:50:54 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:51:59 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:51:59 [INFO] metric open udp on :0
+2018-11-20 20:51:59 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:52:05 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:52:05 [INFO] metric open udp on :0
+2018-11-20 20:52:05 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:52:18 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:52:18 [INFO] metric open udp on :0
+2018-11-20 20:52:18 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 20:52:50 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 20:52:50 [INFO] metric open udp on :0
+2018-11-20 20:52:50 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 21:11:58 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 21:11:59 [INFO] metric open udp on :0
+2018-11-20 21:11:59 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 21:13:56 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 21:13:56 [INFO] metric open udp on :0
+2018-11-20 21:13:56 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 21:14:38 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 21:14:38 [INFO] metric open udp on :0
+2018-11-20 21:14:38 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 21:16:28 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 21:16:28 [INFO] metric open udp on :0
+2018-11-20 21:16:28 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 21:23:10 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 21:23:10 [INFO] metric open udp on :0
+2018-11-20 21:23:10 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 21:25:32 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 21:25:32 [INFO] metric open udp on :0
+2018-11-20 21:25:32 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-20 21:35:08 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-20 21:35:08 [INFO] metric open udp on :0
+2018-11-20 21:35:08 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:25:46 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:25:46 [INFO] metric open udp on :0
+2018-11-21 10:25:46 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:28:04 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:28:04 [INFO] metric open udp on :0
+2018-11-21 10:28:04 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:29:21 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:29:21 [INFO] metric open udp on :0
+2018-11-21 10:29:21 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:36:03 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:36:03 [INFO] metric open udp on :0
+2018-11-21 10:36:03 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:36:13 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:36:13 [INFO] metric open udp on :0
+2018-11-21 10:36:13 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:37:52 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:37:52 [INFO] metric open udp on :0
+2018-11-21 10:37:52 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:38:15 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:38:15 [INFO] metric open udp on :0
+2018-11-21 10:38:15 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:38:47 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:38:47 [INFO] metric open udp on :0
+2018-11-21 10:38:47 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:39:16 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:39:16 [INFO] metric open udp on :0
+2018-11-21 10:39:16 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:40:13 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:40:13 [INFO] metric open udp on :0
+2018-11-21 10:40:13 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:42:05 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:42:05 [INFO] metric open udp on :0
+2018-11-21 10:42:05 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:42:34 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:42:34 [INFO] metric open udp on :0
+2018-11-21 10:42:34 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:43:51 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:43:51 [INFO] metric open udp on :0
+2018-11-21 10:43:51 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:46:47 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:46:47 [INFO] metric open udp on :0
+2018-11-21 10:46:47 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 10:50:29 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 10:50:29 [INFO] metric open udp on :0
+2018-11-21 10:50:29 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:25:49 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:25:49 [INFO] metric open udp on :0
+2018-11-21 20:25:49 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:32:39 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:32:39 [INFO] metric open udp on :0
+2018-11-21 20:32:39 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:35:32 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:35:32 [INFO] metric open udp on :0
+2018-11-21 20:35:32 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:39:57 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:39:57 [INFO] metric open udp on :0
+2018-11-21 20:39:57 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:42:54 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:42:54 [INFO] metric open udp on :0
+2018-11-21 20:42:54 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:43:07 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:43:07 [INFO] metric open udp on :0
+2018-11-21 20:43:07 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:46:20 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:46:20 [INFO] metric open udp on :0
+2018-11-21 20:46:20 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:47:50 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:47:50 [INFO] metric open udp on :0
+2018-11-21 20:47:50 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:48:36 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:48:36 [INFO] metric open udp on :0
+2018-11-21 20:48:36 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:49:17 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:49:17 [INFO] metric open udp on :0
+2018-11-21 20:49:17 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 20:53:40 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 20:53:40 [INFO] metric open udp on :0
+2018-11-21 20:53:40 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 21:04:21 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 21:04:21 [INFO] metric open udp on :0
+2018-11-21 21:04:21 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 21:07:59 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 21:07:59 [INFO] metric open udp on :0
+2018-11-21 21:07:59 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 21:08:54 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 21:08:54 [INFO] metric open udp on :0
+2018-11-21 21:08:54 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 21:10:33 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 21:10:33 [INFO] metric open udp on :0
+2018-11-21 21:10:33 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 21:11:19 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 21:11:19 [INFO] metric open udp on :0
+2018-11-21 21:11:19 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-21 21:12:01 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-21 21:12:01 [INFO] metric open udp on :0
+2018-11-21 21:12:01 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 19:15:01 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 19:15:01 [INFO] metric open udp on :0
+2018-11-22 19:15:01 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 19:19:07 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 19:19:07 [INFO] metric open udp on :0
+2018-11-22 19:19:07 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 19:21:58 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 19:21:59 [INFO] metric open udp on :0
+2018-11-22 19:21:59 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:17:13 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:17:13 [INFO] metric open udp on :0
+2018-11-22 20:17:13 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:18:54 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:18:54 [INFO] metric open udp on :0
+2018-11-22 20:18:54 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:20:53 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:20:53 [INFO] metric open udp on :0
+2018-11-22 20:20:53 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:32:59 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:32:59 [INFO] metric open udp on :0
+2018-11-22 20:32:59 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:35:25 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:35:25 [INFO] metric open udp on :0
+2018-11-22 20:35:25 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:36:13 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:36:13 [INFO] metric open udp on :0
+2018-11-22 20:36:13 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:36:24 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:36:24 [INFO] metric open udp on :0
+2018-11-22 20:36:24 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:40:12 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:40:12 [INFO] metric open udp on :0
+2018-11-22 20:40:12 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:41:36 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:41:36 [INFO] metric open udp on :0
+2018-11-22 20:41:36 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:45:07 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:45:07 [INFO] metric open udp on :0
+2018-11-22 20:45:07 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:51:07 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:51:07 [INFO] metric open udp on :0
+2018-11-22 20:51:07 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:51:59 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:51:59 [INFO] metric open udp on :0
+2018-11-22 20:51:59 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:54:34 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:54:34 [INFO] metric open udp on :0
+2018-11-22 20:54:34 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:55:27 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:55:27 [INFO] metric open udp on :0
+2018-11-22 20:55:27 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 20:59:08 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 20:59:08 [INFO] metric open udp on :0
+2018-11-22 20:59:08 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:02:26 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:02:26 [INFO] metric open udp on :0
+2018-11-22 21:02:26 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:02:36 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:02:36 [INFO] metric open udp on :0
+2018-11-22 21:02:36 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:04:30 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:04:30 [INFO] metric open udp on :0
+2018-11-22 21:04:30 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:04:44 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:04:44 [INFO] metric open udp on :0
+2018-11-22 21:04:44 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:06:41 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:06:41 [INFO] metric open udp on :0
+2018-11-22 21:06:41 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:11:55 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:11:55 [INFO] metric open udp on :0
+2018-11-22 21:11:55 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:25:10 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:25:10 [INFO] metric open udp on :0
+2018-11-22 21:25:10 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:26:20 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:26:20 [INFO] metric open udp on :0
+2018-11-22 21:26:20 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:34:44 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:34:44 [INFO] metric open udp on :0
+2018-11-22 21:34:44 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]
+2018-11-22 21:40:05 [INFO] use default metrics-agent addr: 127.0.0.1:788
+2018-11-22 21:40:05 [INFO] metric open udp on :0
+2018-11-22 21:40:05 [ERRO] service meta init error: read file error, [file:/Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt][err:open /Users/didi/Documents/go/src/github.com/MengFanqi/orm-benchmark/.deploy/service.service_name.txt: no such file or directory]

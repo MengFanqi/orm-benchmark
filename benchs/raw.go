@@ -14,20 +14,20 @@ const (
 	rawInsertSQL       = rawInsertBaseSQL + rawInsertValuesSQL
 	rawUpdateSQL       = "UPDATE `model` SET `name`=?, `title`=?, `fax`=?, `web`=?, `age`=?, `right`=?, `counter`=? WHERE `id`=?"
 	rawSelectSQL       = "SELECT `id`, `name`, `title`, `fax`, `web`, `age`, `right`, `counter` FROM `model` WHERE `id`=?"
-	rawSelectMultiSQL  = "SELECT `id`, `name`, `title`, `fax`, `web`, `age`, `right`, `counter` FROM `model` WHERE `id`>0 LIMIT 100"
+	rawSelectMultiSQL  = "SELECT `id`, `name`, `title`, `fax`, `web`, `age`, `right`, `counter` FROM `model` WHERE `id`>=1 LIMIT 100"
 )
 
 func init() {
-	st := NewSuite("raw")
-	st.InitF = func() {
-		st.AddBenchmark("Insert", 2000*ORM_MULTI, RawInsert)
-		st.AddBenchmark("MultiInsert 100 row", 500*ORM_MULTI, RawInsertMulti)
-		st.AddBenchmark("Update", 2000*ORM_MULTI, RawUpdate)
-		st.AddBenchmark("Read", 4000*ORM_MULTI, RawRead)
-		st.AddBenchmark("MultiRead limit 100", 2000*ORM_MULTI, RawReadSlice)
-
-		raw, _ = sql.Open("mysql", ORM_SOURCE)
-	}
+	//st := NewSuite("raw")
+	//st.InitF = func() {
+	//	st.AddBenchmark("Insert", 2000*ORM_MULTI, RawInsert)
+	//	//st.AddBenchmark("MultiInsert 100 row", 500*ORM_MULTI, RawInsertMulti)
+	//	st.AddBenchmark("Update", 2000*ORM_MULTI, RawUpdate)
+	//	st.AddBenchmark("Read", 2000*ORM_MULTI, RawRead)
+	//	st.AddBenchmark("MultiRead limit 100", 2000*ORM_MULTI, RawReadSlice)
+	//
+	//	raw, _ = sql.Open("mysql", ORM_SOURCE)
+	//}
 }
 
 func RawInsert(b *B) {
@@ -111,17 +111,24 @@ func RawInsertMulti(b *B) {
 func RawUpdate(b *B) {
 	var m *Model
 	var stmt *sql.Stmt
-	wrapExecute(b, func() {
-		var err error
-		initDB()
-		m = NewModel()
-		rawInsert(m)
-		stmt, err = raw.Prepare(rawUpdateSQL)
-		if err != nil {
-			fmt.Println(err)
-			b.FailNow()
-		}
-	})
+	m = NewModel()
+	//wrapExecute(b, func() {
+	//	var err error
+	//	initDB()
+	//	m = NewModel()
+	//	rawInsert(m)
+	//	stmt, err = raw.Prepare(rawUpdateSQL)
+	//	if err != nil {
+	//		fmt.Println(err)
+	//		b.FailNow()
+	//	}
+	//})
+	var err error
+	stmt, err = raw.Prepare(rawUpdateSQL)
+	if err != nil {
+		fmt.Println(err)
+		b.FailNow()
+	}
 	defer stmt.Close()
 
 	for i := 0; i < b.N; i++ {

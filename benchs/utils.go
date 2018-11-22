@@ -7,7 +7,8 @@ import (
 )
 
 type Model struct {
-	Id      int `qbs:"pk" sql:"pk"`
+	Id      int `qbs:"pk" sql:"pk" xorm:"pk autoincr" gorm:"primary_key;not null;AUTO_INCREMENT"`
+	//Id      int `xorm:"pk autoincr"`
 	Name    string
 	Title   string
 	Fax     string
@@ -30,11 +31,29 @@ func NewModel() *Model {
 	return m
 }
 
+func GetModelMap(m *Model) map[string]interface{} {
+	modelMap := map[string]interface{}{
+		"name" :m.Name,
+		"title" : m.Title,
+		"fax": m.Fax,
+		"web": m.Web,
+		"age": m.Age,
+		"right": m.Right,
+		"counter": m.Counter,
+	}
+	return modelMap
+}
+
 var (
 	ORM_MULTI    int
 	ORM_MAX_IDLE int
 	ORM_MAX_CONN int
 	ORM_SOURCE   string
+	ORM_HOST []string
+	ORM_USER string
+	ORM_PASSWD string
+	ORM_DB string
+	ORM_CHARSET string
 )
 
 func checkErr(err error) {
@@ -53,7 +72,7 @@ func wrapExecute(b *B, cbk func()) {
 func initDB() {
 	sqls := []string{
 		"DROP TABLE IF EXISTS `model`",
-		"CREATE TABLE `orm_bench`.`model` (" +
+		"CREATE TABLE `invite`.`model` (" +
 			"`id` int(11) NOT NULL AUTO_INCREMENT," +
 			"`name` varchar(255) NOT NULL," +
 			"`title` varchar(255) NOT NULL," +
@@ -78,3 +97,4 @@ func initDB() {
 		checkErr(err)
 	}
 }
+
